@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portofolio Saya</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0; padding: 0;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background-color: #4a90e2;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.8rem;
+    }
+    header p {
+      margin: 5px 0 0;
+      font-size: 1.2rem;
+    }
+    main {
+      max-width: 900px;
+      margin: 30px auto;
+      background: white;
+      padding: 25px 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgb(0 0 0 / 0.1);
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    h2 {
+      border-bottom: 2px solid #4a90e2;
+      padding-bottom: 8px;
+      margin-bottom: 20px;
+      color: #4a90e2;
+    }
+    .profile img {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      display: block;
+      margin-bottom: 15px;
+      object-fit: cover;
+      border: 3px solid #4a90e2;
+    }
+    .profile p {
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+    ul.projects {
+      list-style: none;
+      padding-left: 0;
+    }
+    ul.projects li {
+      margin-bottom: 15px;
+    }
+    ul.projects li a {
+      color: #4a90e2;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    ul.projects li a:hover {
+      text-decoration: underline;
+    }
+    .contact-info p {
+      margin: 8px 0;
+      font-size: 1rem;
+    }
+    footer {
+      text-align: center;
+      padding: 15px 10px;
+      color: #666;
+      font-size: 0.9rem;
+      background-color: #f0f0f0;
+    }
+    @media (max-width: 600px) {
+      main {
+        margin: 15px;
+        padding: 20px;
+      }
+      header h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Nama Kamu</h1>
+    <p>Frontend Developer | Web Enthusiast | Problem Solver</p>
+  </header>
+
+  <main>
+    <section class="profile">
+      <img src="https://via.placeholder.com/140" alt="Foto Profil" />
+      <p>Halo! Saya <strong>Nama Kamu</strong>, seorang frontend developer yang bersemangat dalam menciptakan pengalaman web yang menarik dan responsif. Saya suka bekerja dengan teknologi modern dan terus belajar hal baru.</p>
+    </section>
+
+    <section class="experience">
+      <h2>Pengalaman Kerja</h2>
+      <ul>
+        <li><strong>Frontend Developer - PT Contoh Teknologi</strong> (2022 - Sekarang)<br />
+        Mengembangkan antarmuka pengguna menggunakan React dan Tailwind CSS.</li>
+        <li><strong>Intern Web Developer - Startup ABC</strong> (2021)<br />
+        Membantu pembuatan website marketing dan landing page yang responsif.</li>
+      </ul>
+    </section>
+
+    <section class="projects">
+      <h2>Proyek</h2>
+      <ul class="projects">
+        <li><a href="https://github.com/username/project1" target="_blank" rel="noopener">Project 1 - Website E-commerce</a><br />Membangun situs e-commerce lengkap dengan fitur keranjang dan pembayaran online.</li>
+        <li><a href="https://github.com/username/project2" target="_blank" rel="noopener">Project 2 - Aplikasi To-Do List</a><br />Aplikasi to-do list sederhana menggunakan React untuk manajemen tugas harian.</li>
+        <li><a href="https://username.github.io" target="_blank" rel="noopener">Website Portofolio</a><br />Website ini sendiri yang saya buat menggunakan HTML dan CSS murni.</li>
+      </ul>
+    </section>
+
+    <section class="contact-info">
+      <h2>Kontak</h2>
+      <p>Email: <a href="mailto:emailkamu@example.com">emailkamu@example.com</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/username" target="_blank" rel="noopener">linkedin.com/in/username</a></p>
+      <p>GitHub: <a href="https://github.com/username" target="_blank" rel="noopener">github.com/username</a></p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Nama Kamu. Semua hak cipta dilindungi.
+  </footer>
+
+</body>
+</html>
